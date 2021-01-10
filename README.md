@@ -42,7 +42,14 @@ Dynamic Power=72.9199 W | Dynamic Power=2.96053 W
 Leakage Power=36.8319 W | Leakage Power=0.108687 W
   
   Οι διαφορές στις τιμές είναι εμφανής . Έστω χρόνος εκτέλεσης προγράμματος για τον επεξεργαστή  XEON T.  
-  exec_time_Xeon=T exec_time_ARM_A9=40*T
+  exec_time_Xeon=T exec_time_ARM_A9=40*T  
+  Τότε  
+  Energy_Xeon=72.9199*T Energy_ARM_A9=2.96053*40*T=118.4212*T   
+  Θα υποθέσουμε χρόνο T_2 μιας idle κατάστασης τότε  
+  Energy_Xeon_2=72.9199*T+Total_Leakage*T_2= 72.9199*T+ 36.8319*T_2 και  
+  Energy_ARM_A9_2=118.4212*T+Total_Leakage*T_2= 118.4212*T+ 0.108687*T_2  
+  Είναι προφανές ότι κάποια στιγμή θα ξεπεράσει σε κατανάλωση ενέγρειας ο XEON τον ARM_A9 
+  
   
   
  
