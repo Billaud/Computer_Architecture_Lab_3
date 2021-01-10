@@ -50,6 +50,15 @@ Leakage Power=36.8319 W | Leakage Power=0.108687 W
   Energy_ARM_A9_2=118.4212*T+Total_Leakage*T_2= 118.4212*T+ 0.108687*T_2  
   Είναι προφανές ότι κάποια στιγμή θα ξεπεράσει σε κατανάλωση ενέγρειας ο XEON τον ARM_A9   
   idle: Κατάσταση κατα την οποία έχει τελειώσει το πρόγραμμα και δεν διακόπτεται η λειτουργία οπότε θα κατανλώνει leakage power.
+  ### 2 ΜΕΡΟΣ  
+  Τρέξαμε το πρόγραμμα και παράξαμε τα παρακάτω αποτελέσματα  
+  __SPECBZIP__  
+  Cache line | Associativity | Cache Size
+------------ | ------------- | -------------
+Content cell 1 | Content cell 2 | 3
+Content column 1 | Content column 2 | 4
+Ccc | sd | sad
+  
   
   
   
