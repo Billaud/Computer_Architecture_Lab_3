@@ -53,11 +53,11 @@ Leakage Power=36.8319 W | Leakage Power=0.108687 W
   ### 2 ΜΕΡΟΣ  
   Τρέξαμε το πρόγραμμα και παράξαμε τα παρακάτω αποτελέσματα  
   __SPECBZIP__  
-  Cache line | Associativity | Cache Size
------------- | ------------- | -------------
-Content cell 1 | Content cell 2 | 3
-Content column 1 | Content column 2 | 4
-Ccc | sd | sad
+Benchmark | Cache line  | Associativity | Cache Size | Area | Peak Power  | Subthreshold Leakage | Gate Leakage
+------------ | ------------ | ------------- | ------------- | ------------ | ------------ | ------------- | -------------
+Specbzip | 32 | 2 | 512 | 8.67246 mm^2 | 2.17171 W | 0.835135 W | 0.00510801 W
+Specbzip  | 64 | 2 | 512 | 10.7277 mm^2 | 3.78201 W | 1.13937 W | 0.00765637 W
+Specbzip | 128 | 2 | 512 | 27.2786 mm^2 | 8.1871 W | 1.09781 W | 0.00813556 W
   
   
   
