@@ -66,9 +66,8 @@ Specbzip  | 64 | 2 | 512 | 10.7277 | 3.78201 | 1.13937 | 0.00765637
 Specbzip | 64 | 2 | 1024 | 12.81 | 3.8508 | 1.14069 | 0.00785494 
   
  Οι ίδιες τιμές παράχθηκαν και για τα άλλα __benchmarks__.  
- Παρακατώ παρουσιάζονται τα γραφήματα   
-    
-      ![]
-      [Effect of cache line to Area] (https://github.com/Billaud/Computer_Architecture_Lab_3/blob/main/plots/area_cache_line.jpg)
+ Παρακατώ παρουσιάζονται τα γραφήματα  
+ ![]
+ [Effect of cache line to Area] (https://github.com/Billaud/Computer_Architecture_Lab_3/blob/main/plots/area_cache_line.jpg)
   
  
