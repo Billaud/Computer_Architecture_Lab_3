@@ -68,6 +68,13 @@ Specbzip | 64 | 2 | 1024 | 12.81 | 3.8508 | 1.14069 | 0.00785494
  Οι ίδιες τιμές παράχθηκαν και για τα άλλα __benchmarks__.  
  Παρακατώ παρουσιάζονται τα γραφήματα  
  ![](https://github.com/Billaud/Computer_Architecture_Lab_3/blob/main/plots/area_cache_line.jpg)  
- 
-  
- 
+   
+ ![](https://github.com/Billaud/Computer_Architecture_Lab_3/blob/main/plots/peak_power_cache_line.png)
+   
+ ![](https://github.com/Billaud/Computer_Architecture_Lab_3/blob/main/plots/area_as.png)
+   
+ ![](https://github.com/Billaud/Computer_Architecture_Lab_3/blob/main/plots/peak_power_as.png)
+   
+ ![](https://github.com/Billaud/Computer_Architecture_Lab_3/blob/main/plots/area_cache_size.png)
+   
+ ![](https://github.com/Billaud/Computer_Architecture_Lab_3/blob/main/plots/peak_power_cache_size.png)
