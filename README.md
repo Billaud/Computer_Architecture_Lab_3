@@ -88,13 +88,18 @@ Specbzip | 64 | 2 | 1024 | 12.81 | 3.8508 | 1.14069 | 0.00785494
  ![](https://github.com/Billaud/Computer_Architecture_Lab_3/blob/main/plots/peak_power_cache_size.png)  
  #### ΕΠΙΛΟΓΗ ΤΙΜΩΝ
  Η επιλογή γίνεται ώστε το αποτέλεσμα γίνεται με το εξής.  
- Αν κάποιος αυξήσει την καθυστέρηση(περισσότερο χρόνο υλοποίησης) θα έχει μειωμένη ενέργεια λειτουργίας.  
- 
+ Αν κάποιος αυξήσει την καθυστέρηση(περισσότερο χρόνο υλοποίησης) θα έχει μειωμένη ενέργεια λειτουργίας.
+ Specbzip:  128 Cache line 2 Associativity 512 Cache Size
+ Spechmmer: 32 Cache Line 2 Associativity 512 Cache Size
+ Speclibm:  32 Cache Line 2 Associativity 256 Cache Size
+ Specmcf: 32 Cache Line 8 Associativity 512 Cache Size
+ Specsjeng: 128 Cache Line 2 Associativity 512 Cache Size
  ### ΠΙΘΑΝΟΙ ΛΟΓΟΙ ΣΦΑΛΜΑΤΩΝ
- Υπάρχουν λόγοι σφαλμάτων καθώς οι μετρησεις μας περιέχουν παραδοχές και σφάλματα.Αρχικά το McPAT πραγματοποιεί τις αναλύσεις του  
+ Υπάρχουν λόγοι σφαλμάτων καθώς οι μετρησεις μας περιέχουν παραδοχές και σφάλματα.Αρχικά το McPAT πραγματοποιεί τις   αναλύσεις του  
  σε μία σταθερή θερμοκρασία πράγμα το οποίο είναι ιδανικό και δεν συμβαίνει στην πραγματικότητα.  
  Επίσης υπάρχουν μη γραμμικότητες στα στοιχεία τα οποία δυσχεραίνουν την ανάλυση.
  ### ΠΗΓΕΣ
  https://en.wikipedia.org/wiki/Performance_per_watt  
  https://www.hpl.hp.com/research/mcpat/micro09.pdf  
  http://www.eecs.umich.edu/courses/eecs470/OLD/w14/lectures/470L14W14.pdf
+ ### ΚΡΙΤΙΚΗ
