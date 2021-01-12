@@ -70,7 +70,7 @@ Specbzip | 64 | 2 | 256 | 10.1825  | 3.75152 | 1.13885 | 0.00759281
 Specbzip  | 64 | 2 | 512 | 10.7277 | 3.78201 | 1.13937 | 0.00765637 
 Specbzip | 64 | 2 | 1024 | 12.81 | 3.8508 | 1.14069 | 0.00785494 
   #### ΘΕΩΡΕΙΤΙΚΗ ΑΝΑΛΥΣΗ
-  Για την ελαχιστοποίση του γινομένου EDP(ENERGY DELAY) χρειαζόμαστε δύο μεγέθη το Runtime Dynamic και το delay.  
+  Για την βελτιστοποίηση του γινομένου EDP(ENERGY DELAY) χρειαζόμαστε δύο μεγέθη το Runtime Dynamic και το delay.  
   Αυτά θα τα αντλήσουμε από το stats.txt όπου simseconds ταυτίζεται με το delay και το Runtime Dynamic από το McPAT.
   
  Οι ίδιες τιμές παράχθηκαν και για τα άλλα __benchmarks__.  
@@ -86,5 +86,10 @@ Specbzip | 64 | 2 | 1024 | 12.81 | 3.8508 | 1.14069 | 0.00785494
  ![](https://github.com/Billaud/Computer_Architecture_Lab_3/blob/main/plots/area_cache_size.png)
    
  ![](https://github.com/Billaud/Computer_Architecture_Lab_3/blob/main/plots/peak_power_cache_size.png)
+ ### ΠΙΘΑΝΟΙ ΛΟΓΟΙ ΣΦΑΛΜΑΤΩΝ
+ Υπάρχουν λόγοι σφαλμάτων καθώς οι μετρησεις μας περιέχουν παραδοχές και σφάλματα.Αρχικά το McPAT πραγματοποιεί τις αναλύσεις του  
+ σε μία σταθερή θερμοκρασία πράγμα το οποίο είναι ιδανικό και δεν συμβαίνει στην πραγματικότητα.  
+ Επίσης υπάρχουν μη γραμμικότητες στα στοιχεία τα οποία δυσχεραίνουν την ανάλυση.
  ### ΠΗΓΕΣ
  https://en.wikipedia.org/wiki/Performance_per_watt
+ https://www.hpl.hp.com/research/mcpat/micro09.pdf
