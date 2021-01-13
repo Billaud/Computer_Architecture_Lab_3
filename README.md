@@ -105,7 +105,7 @@ Specbzip | 64 | 2 | 1024 | 12.81 | 3.8508 | 1.14069 | 0.00785494
  Επίσης υπάρχουν μη γραμμικότητες στα στοιχεία τα οποία δυσχεραίνουν την ανάλυση.
  ### ΠΗΓΕΣ
  https://en.wikipedia.org/wiki/Performance_per_watt  
- https://www.hpl.hp.com/research/mcpat/micro09.pdf  
+ https://www.hpl.hp.com/research/mcpat/micro09.pdf  
  http://www.eecs.umich.edu/courses/eecs470/OLD/w14/lectures/470L14W14.pdf
  ### ΚΡΙΤΙΚΗ
  Μέσω των εργασιών μάθαμε πολλά και εμβαθύναμε σε συγκεκριμένα σημεία της αρχιτεκτονικής υπολογιστών.  
